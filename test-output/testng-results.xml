@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="91654" started-at="2020-07-20T08:48:18 IST" finished-at="2020-07-20T08:49:50 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunnerTest.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:AutomationTest.BrightTalkTest.RunnerTest@12405818]" name="feature" class="AutomationTest.BrightTalkTest.RunnerTest"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="91654" started-at="2020-07-20T08:48:18 IST" finished-at="2020-07-20T08:49:50 IST">
+      <class name="AutomationTest.BrightTalkTest.RunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:AutomationTest.BrightTalkTest.RunnerTest@12405818]" name="setUpClass" is-config="true" duration-ms="439" started-at="2020-07-20T08:48:18 IST" finished-at="2020-07-20T08:48:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:AutomationTest.BrightTalkTest.RunnerTest@12405818]" name="feature" duration-ms="73512" started-at="2020-07-20T08:48:19 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-20T08:49:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[API test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:AutomationTest.BrightTalkTest.RunnerTest@12405818]" name="feature" duration-ms="17312" started-at="2020-07-20T08:49:32 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-20T08:49:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BrightTalk  Sample Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:AutomationTest.BrightTalkTest.RunnerTest@12405818]" name="tearDownClass" is-config="true" duration-ms="147" started-at="2020-07-20T08:49:50 IST" finished-at="2020-07-20T08:49:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- AutomationTest.BrightTalkTest.RunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
